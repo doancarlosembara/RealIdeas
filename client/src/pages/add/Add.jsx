@@ -80,10 +80,16 @@ const Add = () => {
             />
             <label htmlFor="">Category</label>
             <select name="cat" id="cat" onChange={handleChange}>
-              <option value="design">Design</option>
-              <option value="web">Web Development</option>
-              <option value="animation">Animation</option>
-              <option value="music">Music</option>
+              <option value="Graphic & Design">Graphic & Design</option>
+              <option value="Digital Marketing">Digital Marketing</option>
+              <option value="Writing & Translation">Writing & Translation</option>
+              <option value="Video & Animation">Video & Animation</option>
+              <option value="Music & Audio">Music & Audio</option>
+              <option value="Technology">Technology</option>
+              <option value="Business">Business</option>
+              <option value="Lifestyle">Lifestyle</option>
+              <option value="Data">Data</option>
+              <option value="Photography">Photography</option>
             </select>
             <div className="images">
               <div className="imagesInputs">
