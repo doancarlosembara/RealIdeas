@@ -4,6 +4,7 @@ export const cards = [
     title: "AI Artists",
     desc: "Add talent to AI",
     img: "https://images.pexels.com/photos/7532110/pexels-photo-7532110.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
+    url: "http://localhost:5173/gigs?cat=animation"
   },
   {
     id: 2,
