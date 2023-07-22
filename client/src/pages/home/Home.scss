@@ -161,6 +161,7 @@
 .video {
   width: 560px;
   height: 315px;
+  margin-left:15%;
 }
 
 @media screen and (max-width: 1000px) {
@@ -176,5 +177,6 @@
     margin-top:15%;
     width: 65vh;
     height: 35vh;
+    margin-left:-1%;
   }
 }
