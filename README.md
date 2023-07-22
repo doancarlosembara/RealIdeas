@@ -1,8 +1,13 @@
+<<<<<<< HEAD
+
 # RealIdeas
 
 ## Connecting Achiever
 
-C:\Users\carlo\OneDrive\Documents\GarudaHacks\Full-Stack MERN Fiverr\Screenshot 2023-07-23 053154.png
+# C:\Users\carlo\OneDrive\Documents\GarudaHacks\Full-Stack MERN Fiverr\Screenshot 2023-07-23 053154.png
+
+RealIdeas
+Connecting Achiever
 
 Inspiration
 What really inspire this web is many Indonesians youth that have amazing craft and skill but yet to get recognized. We want to take their real ideas to reality and make it useful for themself and others.
