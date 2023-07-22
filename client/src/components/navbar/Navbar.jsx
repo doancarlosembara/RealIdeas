@@ -43,8 +43,16 @@ function Navbar() {
           </Link>
         </div>
         <div className="links">
-          <span>Fiverr Business</span>
-          <span>Explore</span>
+          <span>
+          <Link className="link" to="/gigs?search=">
+              RealIdeas
+              </Link>
+          </span>
+          <span>
+            <Link className="link" to="/gigs?search=">
+              Explore
+              </Link>
+          </span>
           <span>English</span>
           {!currentUser?.isSeller && <span>Become a Seller</span>}
           {currentUser ? (
@@ -89,32 +97,29 @@ function Navbar() {
         <>
           <hr />
           <div className="menu">
-            <Link className="link menuLink" to="/">
-              Graphics & Design
+            <Link className="link menuLink" to="/gigs?cat=Technology">
+            Technology
             </Link>
-            <Link className="link menuLink" to="/">
-              Video & Animation
+            <Link className="link menuLink" to="/gigs?cat=Business">
+            Business
             </Link>
-            <Link className="link menuLink" to="/">
-              Writing & Translation
+            <Link className="link menuLink" to="/gigs?cat=Social Environment">
+            Social Environment
             </Link>
-            <Link className="link menuLink" to="/">
-              AI Services
+            <Link className="link menuLink" to="/gigs?cat=Graphic Design">
+            Graphic design
             </Link>
-            <Link className="link menuLink" to="/">
-              Digital Marketing
+            <Link className="link menuLink" to="/gigs?cat=Video & Film">
+            Video & Film
             </Link>
-            <Link className="link menuLink" to="/">
-              Music & Audio
+            <Link className="link menuLink" to="/gigs?cat=Financial">
+            Financial
             </Link>
-            <Link className="link menuLink" to="/">
-              Programming & Tech
+            <Link className="link menuLink" to="/gigs?cat=Software Development">
+            Software Development
             </Link>
-            <Link className="link menuLink" to="/">
-              Business
-            </Link>
-            <Link className="link menuLink" to="/">
-              Lifestyle
+            <Link className="link menuLink" to="/gigs?cat=Data Analyst">
+            Data analyst
             </Link>
           </div>
           <hr />

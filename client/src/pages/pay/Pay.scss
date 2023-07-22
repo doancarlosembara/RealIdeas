@@ -1,3 +1,75 @@
-.pay{
+/* Pay.css */
 
-}
+/* Base styles for the container */
+.pay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 75vh;
+    background-color: #f0f0f0;
+  }
+  
+  /* Styles for the payment form */
+  #payment-form {
+    width: 400px; /* Adjust the width as needed */
+  }
+  
+  /* Styles for the "Pay now" button */
+  #submit {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin:10px 0px;
+  }
+  
+  #submit:hover {
+    background-color: #0056b3;
+  }
+  
+  #submit:focus {
+    outline: none;
+    box-shadow: 0 0 4px rgba(0, 123, 255, 0.6);
+  }
+  
+  #submit:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Adjust the styles for the iframe container */
+  .__PrivateStripeElement {
+    margin: -4px 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    display: block !important;
+    background: transparent !important;
+    position: relative !important;
+    opacity: 1 !important;
+    clear: both !important;
+    transition: height 0.35s ease 0s !important;
+  }
+  
+  /* Add any additional customization for the Stripe Elements here */
+  /* For example, you can change the font-family or colors for the card inputs */
+  .stripe-inputs {
+    font-family: Arial, sans-serif;
+    color: #333;
+  }
+  
+  /* Media query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .pay {
+      padding: 20px;
+    }
+  
+    #payment-form {
+      width: 100%;
+      max-width: 400px;
+    }
+  }
+  

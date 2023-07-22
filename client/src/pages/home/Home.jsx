@@ -18,7 +18,7 @@ function Home() {
         ))}
       </Slide>
       <div className="features">
-        <div className="container">
+        <div className="container container-video">
           <div className="item">
             <h1>A whole world of freelance talent at your fingertips</h1>
             <div className="title">
@@ -55,8 +55,14 @@ function Home() {
             </p>
           </div>
           <div className="item">
-            <video src="./img/video.mp4" controls />
-          </div>
+          <iframe
+            className="video"
+            src="https://www.youtube.com/embed/KMWx15H0SFs"
+            title="YouTube video player"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
+        </div>
         </div>
       </div>
       <div className="explore">
@@ -64,85 +70,84 @@ function Home() {
           <h1>Explore the marketplace</h1>
           <div className="items">
             <div className="item">
+            <a href="./gigs?cat=Technology">
               <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/graphics-design.d32a2f8.svg"
+                src="https://www.svgrepo.com/show/530225/cell-phone.svg"
                 alt=""
               />
+              </a>
               <div className="line"></div>
-              <span>Graphics & Design</span>
+              <span>Technology</span>
             </div>
             <div className="item">
+            <a href="./gigs?cat=Business">
               <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/online-marketing.74e221b.svg"
+                src="https://www.svgrepo.com/show/530241/tips.svg"
                 alt=""
               />
-              <div className="line"></div>
-
-              <span>Digital Marketing</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/writing-translation.32ebe2e.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Writing & Translation</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/video-animation.f0d9d71.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Video & Animation</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/music-audio.320af20.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Music & Audio</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/programming.9362366.svg"
-                alt=""
-              />
-              <div className="line"></div>
-              <span>Programming & Tech</span>
-            </div>
-            <div className="item">
-              <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/business.bbdf319.svg"
-                alt=""
-              />
+              </a>
               <div className="line"></div>
               <span>Business</span>
             </div>
             <div className="item">
+            <a href="./gigs?cat=Social Environment">
               <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/lifestyle.745b575.svg"
+                src="https://www.svgrepo.com/show/317499/people-love-together-national-culture-paris.svg"
                 alt=""
               />
+              </a>
               <div className="line"></div>
-              <span>Lifestyle</span>
+              <span>Social Environment</span>
             </div>
             <div className="item">
+            <a href="./gigs?cat=Graphic Design">
               <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/data.718910f.svg"
+              src="https://www.svgrepo.com/show/263115/graphic-design-illustration.svg"
                 alt=""
               />
+              </a>
               <div className="line"></div>
-              <span>Data</span>
+              <span>Graphic Design</span>
             </div>
             <div className="item">
+            <a href="./gigs?cat=Video & Film">
               <img
-                src="https://fiverr-res.cloudinary.com/npm-assets/@fiverr/logged_out_homepage_perseus/apps/photography.01cf943.svg"
+              src="https://www.svgrepo.com/show/477035/film.svg"
                 alt=""
               />
+              </a>
               <div className="line"></div>
-              <span>Photography</span>
+              <span>Video & Film</span>
+            </div>
+            <div className="item">
+            <a href="./gigs?cat=Financial">
+              <img
+              src="https://www.svgrepo.com/show/499830/reward.svg"
+                alt=""
+              />
+              </a>
+              <div className="line"></div>
+              <span>Financial</span>
+            </div>
+            <div className="item">
+            <a href="./gigs?cat=Software Development">
+              <img
+                src="./public\img\software.png"
+                alt=""
+              />
+              </a>
+              <div className="line"></div>
+              <span>Software Development</span>
+            </div>
+            <div className="item">
+            <a href="./gigs?cat=Data Analyst">
+              <img
+                src="https://www.svgrepo.com/show/499835/data-report.svg"
+                alt=""
+              />
+              </a>
+              <div className="line"></div>
+              <span>Data Analyst</span>
             </div>
           </div>
         </div>
@@ -151,7 +156,7 @@ function Home() {
         <div className="container">
           <div className="item">
             <h1>
-              fiverr <i>business</i>
+              RealIdeas <i>business</i>
             </h1>
             <h1>
               A business solution designed for <i>teams</i>
@@ -174,11 +179,11 @@ function Home() {
               <img src="./img/check.png" alt="" />
               Manage teamwork and boost productivity with one powerful workspace
             </div>
-            <button>Explore Fiverr Business</button>
+            <button>Explore RealIdeas Business</button>
           </div>
           <div className="item">
             <img
-              src="https://fiverr-res.cloudinary.com/q_auto,f_auto,w_870,dpr_2.0/v1/attachments/generic_asset/asset/d9c17ceebda44764b591a8074a898e63-1599597624768/business-desktop-870-x2.png"
+              src="./public\img\features_dark_bener.png"
               alt=""
             />
           </div>
@@ -186,7 +191,7 @@ function Home() {
       </div>
       <Slide slidesToShow={4} arrowsScroll={4}>
         {projects.map((card) => (
-          <ProjectCard key={card.id} card={card} />
+          <ProjectCard key={card.id} card={card} tp={card.link} />
         ))}
       </Slide>
     </div>

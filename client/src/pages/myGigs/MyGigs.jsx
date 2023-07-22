@@ -54,6 +54,7 @@ function MyGigs() {
               <th>Title</th>
               <th>Price</th>
               <th>Sales</th>
+              <th>Category</th>
               <th>Action</th>
             </tr>
             {data.map((gig) => (
@@ -64,6 +65,7 @@ function MyGigs() {
                 <td>{gig.title}</td>
                 <td>{gig.price}</td>
                 <td>{gig.sales}</td>
+                <td>{gig.cat}</td>
                 <td>
                   <img
                     className="delete"

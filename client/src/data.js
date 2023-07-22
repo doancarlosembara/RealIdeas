@@ -1,73 +1,52 @@
 export const cards = [
   {
     id: 1,
-    title: "AI Artists",
-    desc: "Add talent to AI",
-    img: "https://images.pexels.com/photos/7532110/pexels-photo-7532110.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "./gigs?cat=Graphic & Design"
+    title: "Business & Finance",
+    desc: "Expand Your Business",
+    img:"https://www.gsquaredcfo.com/hubfs/five%20people%20sitting%20around%20a%20table%20looking%20over%20documents%20(1)-png.png",
+    link: "./gigs?cat=Business"
   },
   {
     id: 2,
-    title: "Logo Design",
-    desc: "Build yor brand",
-    img: "https://images.pexels.com/photos/11295165/pexels-photo-11295165.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "./gigs?cat=Digital Marketing"
+    title: "Social Fusion",
+    desc: "Connecting People",
+    img: "https://www.rtor.org/wp-content/uploads/2021/04/rtor_guest-blog_featured-image_How-Introverts-Can-Handle-a-Highly-Social-Environment-with-Ease-1.jpg",
+    link: "./gigs?cat=Social Environment"
   },
   {
     id: 3,
-    title: "WordPress",
-    desc: "Customize your site",
-    img: "https://images.pexels.com/photos/4371669/pexels-photo-4371669.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Writing & Translation"
+    title: "Graphic Guru",
+    desc: "Visually Stunning Designs",
+    img: "https://cnc.bc.ca/images/default-source/programs/web-graphic-design-13b.tmb-1000px.png?sfvrsn=33828182_1",
+    link: "/gigs?cat=Graphic Design"
   },
   {
     id: 4,
-    title: "Voice Over",
-    desc: "Share your message",
-    img: "https://images.pexels.com/photos/7608079/pexels-photo-7608079.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Video & Animation"
+    title: "Video Visionary",
+    desc: "Captivating Films",
+    img: "https://www.motionpicture.edu/wp-content/uploads/2022/03/hs-8.png",
+    link: "/gigs?cat=Video & Film"
   },
   {
     id: 5,
-    title: "Video Explainer",
-    desc: "Engage your audience",
-    img: "https://images.pexels.com/photos/13388047/pexels-photo-13388047.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Music & Audio"
+    title: "Financial Maven",
+    desc: "Navigating Finances",
+    img: "https://storage.googleapis.com/danacita-website-v3-prd/website_v3/images/finance.original.jpg",
+    link: "/gigs?cat=Financial"
   },
   {
     id: 6,
-    title: "Social Media",
-    desc: "Reach more customers",
-    img: "https://images.pexels.com/photos/11378899/pexels-photo-11378899.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Technology"
+    title: "Software Sorcerer",
+    desc: "Coding Brilliance",
+    img: "https://cdn.givingcompass.org/wp-content/uploads/2019/03/26130148/Meet-the-People-Coding-Our-World.jpg",
+    link: "/gigs?cat=Software Development"
   },
   {
     id: 7,
-    title: "SEO",
-    desc: "Unlock growth online",
-    img: "https://images.pexels.com/photos/4820241/pexels-photo-4820241.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Business"
-  },
-  {
-    id: 8,
-    title: "Illustration",
-    desc: "Color you dreams",
-    img: "https://images.pexels.com/photos/15032623/pexels-photo-15032623.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Lifestyle"
-  },
-  {
-    id: 9,
-    title: "SEO",
-    desc: "Unlock growth online",
-    img: "https://images.pexels.com/photos/4820241/pexels-photo-4820241.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Data"
-  },
-  {
-    id: 10,
-    title: "Illustration",
-    desc: "Color you dreams",
-    img: "https://images.pexels.com/photos/15032623/pexels-photo-15032623.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "/gigs?cat=Photography"
+    title: "Data Dynamo",
+    desc: "Insights Unlocked",
+    img: "https://www.ecitv.fr/images/visuel_data_analyst.jpg",
+    link: "/gigs?cat=Data Analyst"
   },
 ];
 
@@ -139,6 +118,7 @@ export const gigs = [
     price: 59,
     star: 5,
     username: "Anna Bell",
+    link: "/gig/64bc47630197d78a5bd2936d"
   },
   {
     id: 2,
@@ -148,6 +128,7 @@ export const gigs = [
     price: 79,
     star: 5,
     username: "Lannie Coleman",
+    link: "/gig/64bc49510197d78a5bd29389"
   },
   {
     id: 3,
@@ -157,6 +138,7 @@ export const gigs = [
     price: 112,
     star: 5,
     username: "Carol Steve",
+    link: "/gig/64bc49510197d78a5bd29389"
   },
   {
     id: 4,
@@ -166,6 +148,7 @@ export const gigs = [
     price: 99,
     star: 4,
     username: "Don Weber",
+    link: "/gig/64bc47630197d78a5bd2936d"
   },
   {
     id: 5,
@@ -175,6 +158,7 @@ export const gigs = [
     price: 59,
     star: 5,
     username: "Audrey Richards",
+    link: "/gig/64bc49ca0197d78a5bd29390"
   },
   {
     id: 6,
@@ -184,6 +168,7 @@ export const gigs = [
     price: 79,
     star: 4,
     username: "Walton Shepard ",
+    link: "/gig/64bc1dc0221ce24d98c42e7d"
   },
   {
     id: 7,
@@ -193,6 +178,7 @@ export const gigs = [
     price: 89,
     star: 5,
     username: "Waverly Schaefer",
+    link: "/gig/64bc1f57221ce24d98c42ead"
   },
   {
     id: 8,
@@ -202,5 +188,6 @@ export const gigs = [
     price: 110,
     star: 4,
     username: "Wilton Hunt",
+    link: "/gig/64bc46310197d78a5bd2935d"
   },
 ];

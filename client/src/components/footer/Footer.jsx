@@ -34,8 +34,8 @@ function Footer() {
             <h2>Support</h2>
             <span>Help & Support</span>
             <span>Trust & Safety</span>
-            <span>Selling on Fiverr</span>
-            <span>Buying on Fiverr</span>
+            <span>Selling on RealIdeas</span>
+            <span>Buying on RealIdeas</span>
           </div>
           <div className="item">
             <h2>Community</h2>
@@ -52,15 +52,15 @@ function Footer() {
             <span>Community Standards</span>
           </div>
           <div className="item">
-            <h2>More From Fiverr</h2>
-            <span>Fiverr Business</span>
-            <span>Fiverr Pro</span>
-            <span>Fiverr Logo Maker</span>
-            <span>Fiverr Guides</span>
+            <h2>More From RealIdeas</h2>
+            <span>RealIdeas Business</span>
+            <span>RealIdeas Pro</span>
+            <span>RealIdeas Logo Maker</span>
+            <span>RealIdeas Guides</span>
             <span>Get Inspired</span>
-            <span>Fiverr Select</span>
+            <span>RealIdeas Select</span>
             <span>ClearVoice</span>
-            <span>Fiverr Workspace</span>
+            <span>RealIdeas Workspace</span>
             <span>Learn</span>
             <span>Working Not Working</span>
           </div>
@@ -68,8 +68,8 @@ function Footer() {
         <hr />
         <div className="bottom">
           <div className="left">
-            <h2>fiverr</h2>
-            <span>© Fiverr International Ltd. 2023</span>
+            <h2>RealIdeas</h2>
+            <span>© RealIdeas International Ltd. 2023</span>
           </div>
           <div className="right">
             <div className="social">

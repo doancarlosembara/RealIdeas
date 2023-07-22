@@ -19,12 +19,19 @@ import {
 } from "@tanstack/react-query";
 import Pay from "./pages/pay/Pay";
 import Success from "./pages/success/Success";
+import {Helmet} from "react-helmet";
+
 function App() {
   const queryClient = new QueryClient();
 
   const Layout = () => {
     return (
       <div className="app">
+        <Helmet>
+                <meta charSet="utf-8" />
+                <title>RealIdeas</title>
+                <link rel="icon" href="/public/img/favicon.ico" />
+            </Helmet>
         <QueryClientProvider client={queryClient}>
           <Navbar />
           <Outlet />
